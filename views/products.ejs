@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <%- include('./partials/head') %>
+    <%- include('./partials/menu') %>
+    <h1><%- titulo %></h1>
+<section class="cuerpo">
+    <section>
+        <img src="/images/Camaro.png" alt="auto" width="300px">
+    </section>
+    <ol class="listaFinal">
+        <% for (let i = 0; i < lista.length; i++) { %>
+            <li> Marca: <%= lista[i].marca  %> Modelo: <%= lista[i].modelo  %></li>
+       <% } %>
+    </ol>
+</section>
+
+
+    <%- include('./partials/footer') %>
+</html>

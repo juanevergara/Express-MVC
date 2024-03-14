@@ -1,0 +1,39 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: lightpink;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.menu{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menuItem {
+  margin-top: 5px;
+  font-weight: bold;
+  background-color: white;
+}
+
+.listaFinal{
+  color: black;
+}
+
+.footer{
+  margin-left: 80%;
+  list-style: none;
+}
+
+.cuerpo {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
